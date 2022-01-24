@@ -14,18 +14,173 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
+  min-height: 88px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: #373F41;
+}
+#intro {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 3vmin);
+
   color: white;
+  height: 813px;
+  left: 0px;
+  top: 85px;
+
+  background-color: #737B7D;
+}
+#launch_app_button {
+  background-color: #737B7D;
+  width: 246px;
+  height: 79px;
+  margin-bottom: 9px;
+  margin-right: 4px;
+  display: flex;
+  border-radius: 5px;
+  top: 0px;
+  position: relative;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  font-feature-settings: 'cpsp' on;
 }
 
+#market_trends {
+  background-color: #ffffff;
+  /* width: 246px; */
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 40px;
+  color: #171717;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: calc(10px + 1vmin);
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#go_to_portfolio {
+  background-color: #ffffff;
+  /* width: 246px; */
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 40px;
+  color: white;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: calc(10px + 1vmin);
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+
+  background: #373F41;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#lorem_ipsum {
+  /* position: absolute;
+  width: 231.54px;
+  
+  left: 205.71px;
+  top: 498px; */
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  height: 61px;
+  justify-content: center;
+  /* or 133% */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  color: #737B7D;
+
+  background: #E8E8E8;
+  /* Gray_2 button V */
+
+  border: 0px solid #737B7D;
+  box-sizing: border-box;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  
+}
+.trendingButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #373F41;
+  height: 44px;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+.introSqureRow{
+  display:flex;
+  flex-direction:row;
+  flex:1;
+  column-gap:10px;
+  justify-content:space-evenly;
+  border:0px solid grey
+}
+.introSquare{
+  display: flex;
+  flex: 1;
+  border-radius: 5px;
+  background: #373F41;
+}
+/* #lorem_ipsum:after{
+  box-shadow: 0 0 0 430px #E8E8E8 ;
+} */
 .App-link {
-  color: #61dafb;
+  color: #373F41;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +191,5 @@
     transform: rotate(360deg);
   }
 }
+
+
