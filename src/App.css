@@ -26,7 +26,7 @@
 #intro {
   display: flex;
   flex-direction: row;
-  border: 1px solid grey;
+  border: 0px solid grey;
   align-items: center;
   justify-content: center;
   font-size: calc(20px + 3vmin);
@@ -65,7 +65,9 @@
   font-feature-settings: 'cpsp' on;
   cursor: pointer;
 }
-
+#launch_app_button:hover{
+  opacity: 0.9;
+}
 #market_trends {
   background-color: #ffffff;
   /* width: 246px; */
@@ -90,6 +92,9 @@
   background: #FFFFFF;
   border-radius: 10px;
   cursor: pointer;
+}
+#market_trends:hover{
+  opacity: 0.9;
 }
 #go_to_portfolio {
   background-color: #ffffff;
@@ -116,7 +121,9 @@
   border-radius: 10px;
   cursor: pointer;
 }
-
+#go_to_portfolio:hover{
+  opacity: 0.8;
+}
 #lorem_ipsum {
   /* position: absolute;
   width: 231.54px;
@@ -176,13 +183,16 @@
   flex: 1;
   border-radius: 5px;
   background: #373F41;
+  cursor: pointer;
 }
-
+.introSquare:hover{
+  opacity: 0.8;
+}
 #crypto_journey {
   margin-top:130px;
   display: flex;
   flex-direction: column;
-  border: 1px solid grey;
+  border: 0px solid grey;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -194,7 +204,6 @@
 }
 .crypto_journey_item {
   display:flex;
-  /* border: 1px solid grey; */
   padding: 10px;
   flex:1;
   flex-direction: column;
@@ -202,12 +211,131 @@
   align-content: flex-start;
   color:#373F41;
   box-shadow: 0 0 15px #d9dde0;
+  cursor: pointer;
 }
-/* #lorem_ipsum:after{
-  box-shadow: 0 0 0 430px #E8E8E8 ;
-} */
-.App-link {
+.crypto_journey_item:hover {
+  opacity: 0.7;
+}
+#latest_news {
+  margin-top:50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 0px solid grey;
+  align-items: center;
+  font-size: calc(10px + 1vmin);
   color: #373F41;
+  background-color: white;
+}
+
+#features {
+  margin-top:50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border:0px solid grey;
+  align-items: center;
+  font-size: calc(20px + 4vmin);
+  font-weight: 500;
+  color: #373F41;
+  background-color: white;
+}
+.featureItemA{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid #373F41;
+  box-sizing: border-box;
+  border-radius: 19px;
+  background: #FFFFFF;
+  color:#373F41;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  row-gap: 20px;
+  font-size: calc(10px + 2vmin);
+  font-weight: 500;
+  cursor: pointer;
+}
+.featureItemA:hover{
+  opacity: 0.8;
+}
+.featureItemB{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid #373F41;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  color:#373F41;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  row-gap: 30px;
+  font-size: calc(20px + 2vmin);
+  font-weight: 700;
+  cursor: pointer;
+}
+.featureItemB >.comment{
+  font-size: calc(12px + 1.1vmin);
+  font-weight: 300;
+}
+.featureItemB:hover{
+  opacity: 0.8;
+}
+#explore{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding:100px;
+  background-color: #737B7D;
+  color: white;
+  align-items: flex-start;
+  font-size: calc(30px + 3vmin);
+  font-weight: 700;
+}
+#explore>.comment {
+  font-size: calc(15px + 1.5vmin);
+  font-weight: 600;
+}
+
+.explore_cat{
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px;
+  color: #373F41;
+  font-size: calc(15px + 1.5vmin);
+  font-weight: 600;
+}
+.explore_cat>.subtext{
+  font-size: calc(10px + 1vmin);
+  font-weight: 400;
+}
+.explore_tab{
+  display: flex;
+  color: white;
+  font-size: calc(20px + 2vmin);
+  font-weight: 600;
+}
+.explore_detail {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: stretch;
+  color: black;
+  margin-top: 10px;
+  border: 0px solid grey;
+  font-size: calc(10px + 1vmin);
+  font-weight: 600;
 }
 
 @keyframes App-logo-spin {

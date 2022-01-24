@@ -1,0 +1,105 @@
+#community{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+}
+
+#community>.fir_row{
+    margin-top: 30px;
+    color:#373F41;
+    font-size: calc(30px + 3vmin);
+    font-weight: 700;
+}
+
+#community>.sec_row{
+    color:#373F41;
+    font-size: calc(17px + 1.7vmin);
+    font-weight: 500;
+}
+
+#community>.trd_row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    width:80%;
+    column-gap: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#community>.trd_row>.itm{
+    display: flex;
+    flex: 1;
+    padding:30px;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #E8E8E8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#community>.trd_row>.itm:hover{
+    opacity: 0.7;
+}
+
+#community>.trd_row>.itm>.caption{
+    color:#373F41;
+    font-size: calc(15px + 1.5vmin);
+    font-weight: 500;
+}
+#community>.trd_row>.itm>.btn{
+    border: 1px solid #737B7D;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color:#373F41;
+    padding: 10px;
+    width:80%;
+    font-size: calc(13px + 1.3vmin);
+    font-weight: 450;
+}
+
+#community>.fth_row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    width:80%;
+    column-gap: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#community>.fth_row>.itm{
+    display: flex;
+    flex: 1;
+    padding:30px;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #E8E8E8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#community>.fth_row>.itm:hover{
+    opacity: 0.7;
+}
+
+#community>.fth_row>.itm>.caption{
+    margin-top: 20px;
+    color:#373F41;
+    font-size: calc(25px + 2.5vmin);
+    font-weight: 500;
+}
+#community>.fth_row>.itm>.detail{
+    /* border: 1px solid #737B7D; */
+    box-sizing: border-box;
+    border-radius: 3px;
+    color:#373F41;  
+    width:80%;
+    font-size: calc(10px + 1vmin);
+    font-weight: 400;
+}

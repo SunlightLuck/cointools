@@ -19,7 +19,7 @@ export default function Sidebar({ maChanged }) { //
       <Box>
         <Box 
           className={"sidebar-option"} 
-          mt={"30px"}
+          mt={"0px"}
           onClick={()=>onClickItem('walletinspector')}>
             <FaImage  
               color={"#ffffff"} 
@@ -28,7 +28,7 @@ export default function Sidebar({ maChanged }) { //
         </Box>
         <Box 
           className={"sidebar-option"} 
-          mt={"30px"}
+          mt={"0px"}
           onClick={()=>onClickItem('settings')}>
             <FaImage  
               color={"#ffffff"} 
@@ -37,7 +37,7 @@ export default function Sidebar({ maChanged }) { //
         </Box>
        <Box 
           className={"sidebar-option"} 
-          mt={"30px"}
+          mt={"0px"}
           onClick={()=>onClickItem('faq')}>
             <FaImage  
               color={"#ffffff"} 
@@ -46,7 +46,7 @@ export default function Sidebar({ maChanged }) { //
         </Box>
         <Box 
           className={"sidebar-option"} 
-          mt={"30px"}
+          mt={"0px"}
           onClick={()=>onClickItem('advertise')}>
             <FaImage  
               color={"#ffffff"} 
@@ -55,7 +55,7 @@ export default function Sidebar({ maChanged }) { //
         </Box>
         <Box 
           className={"sidebar-option"} 
-          mt={"30px"}
+          mt={"0px"}
           onClick={()=>onClickItem('partners')}>
             <FaImage  
               color={"#ffffff"} 
