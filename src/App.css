@@ -63,6 +63,7 @@
   letter-spacing: 0.2px;
   text-transform: uppercase;
   font-feature-settings: 'cpsp' on;
+  cursor: pointer;
 }
 
 #market_trends {
@@ -175,6 +176,32 @@
   flex: 1;
   border-radius: 5px;
   background: #373F41;
+}
+
+#crypto_journey {
+  margin-top:130px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: calc(20px + 4vmin);
+  font-weight: 500;
+  color: #373F41;
+  left: 0px;
+  background-color: white;
+}
+.crypto_journey_item {
+  display:flex;
+  /* border: 1px solid grey; */
+  padding: 10px;
+  flex:1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  color:#373F41;
+  box-shadow: 0 0 15px #d9dde0;
 }
 /* #lorem_ipsum:after{
   box-shadow: 0 0 0 430px #E8E8E8 ;
